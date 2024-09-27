@@ -303,6 +303,9 @@ tbody td {
     .event-text {
         margin-left: 13rem;
     }
+    .info dd {
+        width: 100%;
+    }
 }
 @media (max-width: 600px) {
     .slide {
