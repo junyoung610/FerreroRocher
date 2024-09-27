@@ -342,9 +342,20 @@ tbody td {
         height: 100%;
         display: flex;
         gap: 0.6rem;
+        align-items: center;
     }
     .f-logo img {
         width: 11rem;
         height: 5.83rem;
+    }
+    .about {
+        gap: 1.1rem;
+        font-size: 1.2rem;
+    }
+    .copy {
+        font-size: 1.2rem;
+    }
+    .f-menu {
+        gap: 1rem;
     }
 }
