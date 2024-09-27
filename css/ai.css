@@ -334,4 +334,11 @@ tbody td {
     .story-con {
         flex-wrap: wrap;
     }
+    .world-list li {
+        padding: 3rem;
+    }
+    .f-logo img {
+        width: 11rem;
+        height: 5.83rem;
+    }
 }
