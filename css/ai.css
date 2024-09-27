@@ -337,6 +337,12 @@ tbody td {
     .world-list li {
         padding: 3rem;
     }
+    .f-sns {
+        width: 37rem;
+        height: 100%;
+        display: flex;
+        gap: 0.6rem;
+    }
     .f-logo img {
         width: 11rem;
         height: 5.83rem;
