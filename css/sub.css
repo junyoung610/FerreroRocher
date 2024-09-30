@@ -511,9 +511,10 @@ table {
         flex-direction: column;
         width: 100%;
         padding: 0;
+        gap: 2rem;
     }
     .story-body2 {
-        padding: 1rem;
+        padding: 4rem 1rem 1rem 1rem;
     }
     .b-story-text1 h3,
     .b-story-text2 h3 {
@@ -523,6 +524,7 @@ table {
         flex-direction: column-reverse;
         width: 100%;
         padding: 0;
+        gap: 2rem;
     }
     .b-story-text1,
     .b-story-text2 {
