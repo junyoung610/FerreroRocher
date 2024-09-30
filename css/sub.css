@@ -512,6 +512,13 @@ table {
         width: 100%;
         padding: 0;
     }
+    .story-body2 {
+        padding: 1rem;
+    }
+    .b-story-text1 h3,
+    .b-story-text2 h3 {
+        font-size: 3rem;
+    }
     .b-story {
         flex-direction: column-reverse;
         width: 100%;
