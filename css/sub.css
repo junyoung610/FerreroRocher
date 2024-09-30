@@ -112,7 +112,6 @@
 .b-story-text1,
 .b-story-text2 {
     width: 74.2rem;
-    aspect-ratio: 1/1;
 }
 .b-story-text2 p.day {
     font-weight: 700;
