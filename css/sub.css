@@ -109,6 +109,11 @@
     gap: 10rem;
     padding: 4rem 3rem;
 }
+.b-story-text1,
+.b-story-text2 {
+    width: 74.2rem;
+    aspect-ratio: 1/1;
+}
 .b-story-text2 p.day {
     font-weight: 700;
     font-size: 3.6rem;
@@ -491,137 +496,30 @@ table {
     display: none;
 }
 /* 반응형 */
-@media (max-width: 1024px) {
-    #header nav {
-        height: 10rem;
-    }
+@media (max-width: 600px) {
     .inner {
-        width: 90%; /* width 값을 96.8rem에서 100%로 변경해 화면에 맞게 조정 */
+        width: 90%;
     }
-    .gnb {
-        display: none;
-    }
-
-    .slide {
-        width: 100%; /* 130vw에서 100%로 변경해 오버플로우 방지 */
-        height: auto; /* 높이를 고정하지 않고 이미지에 따라 자동 조정 */
-        margin: 0;
-        overflow: hidden;
-    }
-    .slide > img {
-        width: 100%; /* 슬라이드 이미지의 너비를 100%로 변경해 화면에 맞게 조정 */
-        height: auto; /* 높이를 auto로 변경하여 비율 유지 */
-        object-fit: cover;
-        margin: 0;
-    }
-    .m-product {
-        padding: 0;
-    }
-    .m-product h3 {
-        font-size: 2.5rem; /* 텍스트가 너무 크지 않도록 줄임 */
-    }
-    .product-list {
-        flex-direction: column;
-        gap: 2rem; /* 간격을 조금 줄임 */
-    }
-    .product-list li {
-        width: 95%; /* 중복된 width 속성 중 하나만 남김 */
-    }
-    .product-list li figure {
-        width: 20.5%; /* 고정된 크기 대신 100%로 변경하여 유동적으로 맞춤 */
-        height: auto; /* 높이도 자동 조정 */
-    }
-    .product-list li figure img {
-        width: 100%; /* 이미지를 figure에 맞게 채움 */
-        height: auto;
-    }
-
-    .product-list li dl {
-        width: 60rem;
-    }
-    .product-list li a {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        gap: 1.5rem; /* 간격을 조금 줄여 화면 공간 활용 */
-    }
-    .product-list a::after {
-        content: "";
-        display: none;
-    }
-
-    .t-btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 10%;
-        height: 5%;
-        margin: 7rem auto 7rem;
-    }
-    .t-btn img {
-        width: 2rem;
-    }
-
-    .story h3 {
-        font-size: 2.5rem;
-    }
-    .story-con {
-        gap: 6rem;
-    }
-    .story-con figure img {
-        width: 39rem;
-        height: 25.8rem;
-    }
-    .story-text {
-        padding: 0;
-    }
-    .story-text strong {
-        font-weight: 700;
-        font-size: 2.7rem;
-    }
-    .story-text p {
-        font-weight: 400;
-        font-size: 2.3rem;
-    }
-    .story-text a {
-        font-weight: 500;
-        font-size: 1.6rem;
-    }
-    .story-text a b {
-        margin: 0;
-    }
-
-    /* event-con */
-    .event-con {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-        width: 100%;
-    }
-    .event-con figure {
-        width: 85%;
-    }
-
-    .bg-text {
-        margin: 0;
-        padding: 0;
-        width: 95%;
-        height: auto;
-        border-radius: 2rem;
-    }
-    .event-text h4 {
-        font-size: 2.5rem;
-    }
-    .world-list {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        gap: 1rem;
-    }
-    .world-list li p {
-        margin-top: 2.2rem;
-    }
+    .gnb,
     .btn-top {
         display: none;
+    }
+    .title {
+        width: 30rem;
+    }
+    .story-body {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    .b-story {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
+    }
+    .b-story-text1,
+    .b-story-text2 {
+        width: 100%;
+        padding: 0;
     }
 }
