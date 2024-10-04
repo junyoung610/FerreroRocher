@@ -303,15 +303,8 @@ tbody td {
     .event-text {
         margin-left: 13rem;
     }
-    .info dd {
-        width: 100%;
-    }
 }
 @media (max-width: 600px) {
-    .slide {
-        display: none;
-        background: url(../img/slide2.jpg) no-repeat;
-    }
     .event-text {
         width: 90%;
         margin-left: 1rem;
@@ -340,29 +333,5 @@ tbody td {
     }
     .story-con {
         flex-wrap: wrap;
-    }
-    .world-list li {
-        padding: 3rem;
-    }
-    .f-sns {
-        width: 37rem;
-        height: 100%;
-        display: flex;
-        gap: 0.6rem;
-        align-items: center;
-    }
-    .f-logo img {
-        width: 11rem;
-        height: 5.83rem;
-    }
-    .about {
-        gap: 1.1rem;
-        font-size: 1.2rem;
-    }
-    .copy {
-        font-size: 1.2rem;
-    }
-    .f-menu {
-        gap: 1rem;
     }
 }
