@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/common.css" />
         <link rel="stylesheet" href="./css/sub.css" />
+        <script src="./js/jquery-3.7.1.min.js"></script>
+        <script src="./js/script.js"></script>
     </head>
     <body>
         <a href="#main" class="hidden">본문 바로가기</a>
@@ -20,10 +22,41 @@
                         <a href="index.html"><img src="./img/LOGO.png" alt="페레로로쉐" /></a>
                     </h1>
                     <ul class="gnb">
-                        <li><a href="product.html">제품</a></li>
-                        <li><a href="brandstory.html">브랜드스토리</a></li>
-                        <li><a href="tipidea.html">팁 및 아이디어</a></li>
-                        <li><a href="customerservice.html">고객센터</a></li>
+                        <li>
+                            <a href="#">제품</a>
+                            <!-- ul.submenu>li*4>a{submenu$$} -->
+                            <ul class="submenu">
+                                <li><a href="./product.html">전체제품</a></li>
+                                <li><a href="./p-valentinesDay.html">발렌타인데이</a></li>
+                                <li><a href="./p-christmas.html">크리스마스</a></li>
+                                <li><a href="./p-cheer.html">응원</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">브랜드스토리</a>
+                            <!-- ul.submenu>li*4>a{submenu$$} -->
+                            <ul class="submenu">
+                                <li><a href="./brandstory.html">브랜드스토리</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="tipidea.html">팁 및 아이디어</a>
+                            <!-- ul.submenu>li*4>a{submenu$$} -->
+                            <ul class="submenu">
+                                <li><a href="tipidea.html">팁 및 아이디어</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">고객센터</a>
+                            <!-- ul.submenu>li*4>a{submenu$$} -->
+                            <ul class="submenu">
+                                <li><a href="customerservice.html">자주묻는질문</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li><a href="product.html">제품</a></li> -->
+                        <!-- <li><a href="brandstory.html">브랜드스토리</a></li> -->
+                        <!-- <li><a href="tipidea.html">팁 및 아이디어</a></li> -->
+                        <!-- <li><a href="customerservice.html">고객센터</a></li> -->
                     </ul>
                 </nav>
             </div>
