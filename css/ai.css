@@ -297,6 +297,10 @@ tbody td {
     .world-list li p {
         margin-top: 2rem;
     }
+    .top-slider-wrap .btn-prev,
+    .top-slider-wrap .btn-next {
+        display: none;
+    }
 }
 
 @media (max-width: 945px) {

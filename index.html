@@ -5,13 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>페레로로쉐</title>
         <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
-        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/reset.css" />
 
         <link rel="stylesheet" href="./css/common.css" />
         <link rel="stylesheet" href="./css/sub.css" />
         <link rel="stylesheet" href="./css/main.css" />
         <link rel="stylesheet" href="./css/ai.css" />
+        <link rel="stylesheet" href="./css/slide-style.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./js/slide-script.js" defer></script>
 
         <script src="./js/jquery-3.7.1.min.js"></script>
         <script src="./js/script.js"></script>
@@ -69,11 +74,33 @@
         <!-- //e: header -->
 
         <!-- s: main -->
-        <main id="main">
-            <div class="slide">
-                <img src="./img/slide.jpg" alt="slide" />
-            </div>
+        <!-- <div class="slide">
+            <img src="./img/slide.jpg" alt="slide" /> -->
+        <!-- </div> -->
 
+        <div class="top-slider-wrap">
+            <!-- 커스텀버튼 -->
+            <button type="button" class="btn-prev">이전</button>
+            <button type="button" class="btn-next">다음</button>
+
+            <div class="pagination2"></div>
+
+            <div class="swiper top-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/slide.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/product/product06.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/product/product07.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main id="main">
             <section class="m-product">
                 <div class="inner">
                     <h3>페레로로쉐만의 특별한 제품을 만나보세요!</h3>
@@ -217,8 +244,5 @@
         </footer>
 
         <a href="#top" class="btn-top"><i class="hidden">top</i></a>
-
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="./js/common.js"></script>
     </body>
 </html>

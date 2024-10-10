@@ -118,6 +118,7 @@ img {
 
 /* 펼쳐질 메뉴의 배경 */
 header::after {
+    z-index: 5;
     content: "";
     position: absolute;
     top: -400px;
