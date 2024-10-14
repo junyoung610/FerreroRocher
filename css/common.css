@@ -14,6 +14,7 @@
     --white30: rgba(255, 255, 255, 0.3);
     --white20: rgba(255, 255, 255, 0.2);
     --white10: rgba(255, 255, 255, 0.1);
+    --background-image: linear-gradient(0deg, rgba(255, 211, 155), rgba(253, 227, 172));
 }
 
 ::selection {
